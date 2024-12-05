@@ -27,7 +27,7 @@ Firstly, I have downloaded my spending history focused on the periods when I hav
 5. Each day has a `total tutar` (total spending) value for all transactions that day.
 6. Each day has a `discretionary share` value, representing the proportion of discretionary spending over the total spending.
 
-Secondly, I reached out to the official datas being published by TÜİK for the inflation rates per month (TÜFE). I tried to feed the cumulative inflation data with the datas I scraped from the TÜİK's website. Cumulative inflation along with the monthly inflation will be laid down with my own spending history and be analyzed for the claim I proposed at the beginning.
+Secondly, I reached out to the official datas being published by TÜİK in between 2022 and 2024 for the inflation rates for annual and monthly scale (TÜFE). I tried to feed the cumulative inflation data with the datas I scraped from the TÜİK's website. Cumulative inflation along with the monthly inflation will be laid down with my own spending history and be analyzed for the claim I proposed at the beginning.
 
 ## Questions to Address
 - **Does the official inflation rate reflect an increase in the volume of spending?**
