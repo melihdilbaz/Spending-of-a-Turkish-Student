@@ -20,6 +20,7 @@ Firstly, I have downloaded my spending history focused on the periods when I hav
    - Dining out - food
    - Dining out - coffee
    - Fashion
+   - Transportation
    - Others
 2. All data points are merged into the day they belong to.
 3. The corresponding day is mapped to the day of the week as a new field.
