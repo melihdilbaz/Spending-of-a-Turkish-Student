@@ -29,6 +29,7 @@ Firstly, I have downloaded my spending history focused on the periods when I hav
 
    - For some days, there shares fell short between the charge-up days, it caused very small shares a day far from the reality for the time being. To scale this up, the average cafeteria spending a day (slighly less than the average spending) is assigned to the years and if transaction money falls short on those time periods, those assigned realistic values replaced the initial shares.
    - P.S. This supposedly realistic values are determined by the first-hand experience, the prices for those times are considered.
+   - P.S. Some part of categorization is handled by python code whereas 10% of all data are categorized manuelly and corrected.
      
 3. All data points are merged into the day they belong to.
 4. The corresponding day is mapped to the day of the week as a new field.
