@@ -22,11 +22,19 @@ Firstly, I have downloaded my spending history focused on the periods when I hav
    - Fashion
    - Transportation
    - Others
-2. All data points are merged into the day they belong to.
-3. The corresponding day is mapped to the day of the week as a new field.
-4. Each day has a `bakiye` (remaining balance) value for the start of the day.
-5. Each day has a `total tutar` (total spending) value for all transactions that day.
-6. Each day has a `discretionary share` value, representing the proportion of discretionary spending over the total spending.
+   
+    ✅ The raw data is made focused on the school terms specifically. Based on the words inside the `Açıklama` column, there detected the type of the sub category and it is assigned to the regarding transaction.
+   
+    ✅ Since the `Cafeteria food` is on the basis of a large **charge-up** and being served long-lasting, it needed a distributed scale of those school-id cafeteria charge-ups. Starting from the day the charg-up occurs, up until the day the same type transaction holds, every day is equally allocated a share. Only the days that `Dining out - food` is happened, are passed.
+
+   - For some days, there shares fell short between the charge-up days, it caused very small shares a day far from the reality for the time being. To scale this up, the average cafeteria spending a day (slighly less than the average spending) is assigned to the years and if transaction money falls short on those time periods, those assigned realistic values replaced the initial shares.
+   - P.S. This supposedly realistic values are determined by the first-hand experience, the prices for those times are considered.
+     
+3. All data points are merged into the day they belong to.
+4. The corresponding day is mapped to the day of the week as a new field.
+5. Each day has a `bakiye` (remaining balance) value for the start of the day.
+6. Each day has a `total tutar` (total spending) value for all transactions that day.
+7. Each day has a `discretionary share` value, representing the proportion of discretionary spending over the total spending.
 
 Secondly, I reached out to the official datas being published by TÜİK in between 2022 and 2024 for the inflation rates for annual and monthly scale (TÜFE). I tried to feed the cumulative inflation data with the datas I scraped from the TÜİK's website. Cumulative inflation along with the monthly inflation will be laid down with my own spending history and be analyzed for the claim I proposed at the beginning.
 
