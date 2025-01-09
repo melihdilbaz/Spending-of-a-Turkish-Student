@@ -1,7 +1,7 @@
 # Spending-of-a-Turkish-Student
 
 I decided to choose a claim as the following (notice that I study and live in Turkey):  
-**In the high inflation environment, as a student, my spending habits shifted away from discretionary purchases.**
+**In the high inflation environment, as a student, the shift in my spending habits is not from discretionary purchases.**
 
 ## Project Workflow
 
@@ -33,9 +33,8 @@ Firstly, I have downloaded my spending history focused on the periods when I hav
      
 3. All data points are merged into the day they belong to.
 4. The corresponding day is mapped to the day of the week as a new field.
-5. Each day has a `bakiye` (remaining balance) value for the start of the day.
-6. Each day has a `total tutar` (total spending) value for all transactions that day.
-7. Each day has a `discretionary share` value, representing the proportion of discretionary spending over the total spending.
+5. Each day has a `total tutar` (total spending) value for all transactions that day.
+6. Each day has a `discretionary share` value, representing the proportion of discretionary spending over the total spending.
 
 Secondly, I reached out to the official datas being published by TÜİK in between 2022 and 2024 for the inflation rates for annual and monthly scale (TÜFE). I tried to feed the cumulative inflation data with the datas I scraped from the TÜİK's website. Cumulative inflation along with the monthly inflation will be laid down with my own spending history and be analyzed for the claim I proposed at the beginning.
 
