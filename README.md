@@ -11,7 +11,7 @@ As a student at Sabancı University, in high-inflation conditions, there is a si
 [Website for the project](https://melihdilbaz.github.io/)
 
 ## Final Report
-For more detail for the project, final report is attached to the repository. 
+For more detail for the project, final report is attached to the repository: Spending_of_a_Student.pdf
 
 ## Questions to Address
 - **Does the official inflation rate reflect an increase in the volume of spending?**
